@@ -71,3 +71,9 @@ html, footer, .row{
 }
 
 /* TRouBLe*/
+
+.ftlLeft {
+    float: left;
+    margin: 0 15px 20px 0;
+    /*     T  R   B  L */
+}
