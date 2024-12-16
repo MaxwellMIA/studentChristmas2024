@@ -7,6 +7,10 @@
 
 /* class */
 
+.backback {
+    background-color:#5cb826;
+}
+
 .card{
     width: 325px;
     height: 125px;
@@ -47,14 +51,18 @@
     height: 100px;
 }
 
-.content .lm, .content .bn {
-    display: inline-block;
-    padding: 8px 16px;
-    background-color: #c72929;
-    text-decoration: none;
-    border-radius: 4px;
-    margin-top: 16px;
-    color: #6d1c1c;
+
+.ftlLeft {
+    float: left;
+    margin: 0 15px 20px 0;
+}
+
+.navbar {
+    background-color: #6d1c1c;
+}
+
+.navbtn {
+    background-color: #6d1c1c;
 }
 
 .photo {
@@ -69,22 +77,27 @@
     padding-top: 10px;
     font-size: small;
     font-weight: bold;
-}
-
-/* tagss */
-html, footer, .row{
-    background-color: aquamarine;
-}
-
-/* TRouBLe*/
-
-.ftlLeft {
-    float: left;
-    margin: 0 15px 20px 0;
-    /*     T  R   B  L */
+    padding-left: 20px;
 }
 
 #price {
     font-size: large;
     font-weight: 900;
 }
+
+/* tagss */
+html, footer, .row{
+    background-color: #8fd367;;
+}
+
+.content .lm, .content .bn {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #c72929;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 16px;
+    color: #6d1c1c;
+}
+
+/* TRouBLe*/
