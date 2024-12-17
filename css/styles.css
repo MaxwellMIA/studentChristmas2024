@@ -72,6 +72,11 @@
     height: 100px;
 }
 
+.sticky {
+    position: sticky;
+    top: 0;
+}
+
 
 /* id */
 
