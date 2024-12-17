@@ -63,11 +63,15 @@
 
 .navbtn {
     background-color: #6d1c1c;
+    border-radius: 20px;
+    margin: 0px 5px 0px 5px;
 }
 
 .photo {
-    width: 50%;
+    width: 150px;
+    height: 100px;
 }
+
 
 /* id */
 
