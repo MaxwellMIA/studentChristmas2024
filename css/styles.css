@@ -23,7 +23,7 @@ body {
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 2);
     margin: 20px;
     min-height: 250px;
-    border-color: rgb(82, 20, 20);
+    border-color: rgb(10, 115, 36) !important;
 }
 
 .container {
@@ -31,13 +31,11 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 100px;
-    border-color:rgb(82, 20, 20);
 }
 
 .content {
     padding: 16px 16px 0px 16px;
     background-color: #5cb826;
-    border-color:rgb(82, 20, 20);
 }
 
 .content h3{
@@ -57,13 +55,18 @@ body {
     height: 100px;
 }
 
-.emo {
-    margin-bottom: 100px;
+#ff {
+    margin-left: 20px;
 }
 
 .ftlLeft {
     float: left;
     margin: 0 15px 20px 0;
+}
+
+#hero {
+    width: 100%;
+    height: 20000;
 }
 
 .icon {
@@ -109,8 +112,8 @@ body {
 }
 
 /* tagss */
-html, footer, .row{
-    background-color: #8fd367;;
+html, footer, .row, body{
+    background-color: #8fd367 !important;
 }
 
 .content .lm, .content .bn {
@@ -122,7 +125,28 @@ html, footer, .row{
     margin-top: 16px;
     color: #6d1c1c;
 }
-
+  
 /* TRouBLe*/
 
+/*-------- Tablet Media Query --------*/
+@media screen and (min-width: 769px) {
+    .container {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(230px, 1fr));
+        grid-gap: 20px;
+        padding: 20px;
+    }
+}
+/*-------- End of Tablet Media Query --------*/
 
+/*-------- Desktop Media Query --------*/
+@media screen and (min-width: 1025px) {
+    .container  {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(230px, 1fr));
+        grid-gap: 20px;
+        padding: 20px;
+    }
+
+}
+/*-------- End Desktop Media Query --------*/
